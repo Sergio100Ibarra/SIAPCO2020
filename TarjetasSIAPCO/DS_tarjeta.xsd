@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_tarjeta" targetNamespace="http://tempuri.org/DS_tarjeta.xsd" xmlns:mstns="http://tempuri.org/DS_tarjeta.xsd" xmlns="http://tempuri.org/DS_tarjeta.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_tarjeta" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DS_tarjeta" msprop:Generator_UserDSName="DS_tarjeta">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DT_tarjeta" msprop:Generator_TableClassName="DT_tarjetaDataTable" msprop:Generator_TableVarName="tableDT_tarjeta" msprop:Generator_RowChangedName="DT_tarjetaRowChanged" msprop:Generator_TablePropName="DT_tarjeta" msprop:Generator_RowDeletingName="DT_tarjetaRowDeleting" msprop:Generator_RowChangingName="DT_tarjetaRowChanging" msprop:Generator_RowEvHandlerName="DT_tarjetaRowChangeEventHandler" msprop:Generator_RowDeletedName="DT_tarjetaRowDeleted" msprop:Generator_RowClassName="DT_tarjetaRow" msprop:Generator_UserTableName="DT_tarjeta" msprop:Generator_RowEvArgName="DT_tarjetaRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="no_servicio" msprop:Generator_ColumnVarNameInTable="columnno_servicio" msprop:Generator_ColumnPropNameInRow="no_servicio" msprop:Generator_ColumnPropNameInTable="no_servicioColumn" msprop:Generator_UserColumnName="no_servicio" type="xs:string" minOccurs="0" />
+              <xs:element name="nombre" msprop:Generator_ColumnVarNameInTable="columnnombre" msprop:Generator_ColumnPropNameInRow="nombre" msprop:Generator_ColumnPropNameInTable="nombreColumn" msprop:Generator_UserColumnName="nombre" type="xs:string" minOccurs="0" />
+              <xs:element name="direccion" msprop:Generator_ColumnVarNameInTable="columndireccion" msprop:Generator_ColumnPropNameInRow="direccion" msprop:Generator_ColumnPropNameInTable="direccionColumn" msprop:Generator_UserColumnName="direccion" type="xs:string" minOccurs="0" />
+              <xs:element name="qr" msprop:Generator_ColumnVarNameInTable="columnqr" msprop:Generator_ColumnPropNameInRow="qr" msprop:Generator_ColumnPropNameInTable="qrColumn" msprop:Generator_UserColumnName="qr" type="xs:string" minOccurs="0" />
+              <xs:element name="cobradora" msprop:Generator_ColumnVarNameInTable="columncobradora" msprop:Generator_ColumnPropNameInRow="cobradora" msprop:Generator_ColumnPropNameInTable="cobradoraColumn" msprop:Generator_UserColumnName="cobradora" type="xs:string" minOccurs="0" />
+              <xs:element name="mensual" msprop:Generator_ColumnVarNameInTable="columnmensual" msprop:Generator_ColumnPropNameInRow="mensual" msprop:Generator_ColumnPropNameInTable="mensualColumn" msprop:Generator_UserColumnName="mensual" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
